@@ -1,0 +1,101 @@
+.rootCont {
+  display: grid;
+  grid-template-areas:
+    "nameCont photoCont"
+    "socialCont .";
+  grid-template-columns: 50% 50%;
+
+  width: 80%;
+  margin: auto;
+  /* height: 100vh; */
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+a {
+  text-decoration: none;
+}
+.nameCont {
+  grid-area: nameCont;
+  width: 100%;
+  font-size: 50px;
+  font-weight: 800;
+  color: rgb(14, 36, 49);
+  /* border: 2px solid black; */
+  max-height: 60vh;
+}
+.nameCont * {
+  margin: 10px 0;
+}
+.nameCont p span {
+  /* color: rgb(64, 112, 244); */
+  color: rgb(8, 111, 143);
+}
+.photoCont {
+  grid-area: photoCont;
+  width: 100%;
+  /* border: 2px solid black; */
+  max-height: 60vh;
+}
+.socialCont {
+  grid-area: socialCont;
+  width: 20%;
+  /* border: 2px solid black; */
+  /* height: 50vh; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.linkedInIcon {
+  font-size: 40px;
+  margin: 0 10px;
+  /* color: rgb(10, 102, 194); */
+  cursor: pointer;
+  color: rgb(8, 111, 143);
+}
+.linkedInIcon:hover {
+  color: rgb(17, 121, 224) !important;
+}
+.gitIcon {
+  font-size: 40px;
+  margin: 0 10px;
+  cursor: pointer;
+  color: rgb(42, 42, 42);
+}
+.gitIcon:hover {
+  color: rgb(80, 80, 80) !important;
+}
+.contactBtn {
+  color: white;
+  /* background-color: pink; */
+}
+.heroImg {
+  width: 100%;
+  border-radius: 5px;
+}
+@media only screen and (max-width: 1024px) {
+  .rootCont {
+    grid-template-areas:
+      "nameCont nameCont "
+      "socialCont photoCont";
+    width: 90%;
+    grid-template-columns: 20% 80%;
+    align-items: flex-start;
+    height: 93vh;
+    /* padding-top: 7vh; */
+  }
+  .socialCont {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 150px;
+    width: 100%;
+    align-items: center;
+  }
+  .photoCont {
+    padding-top: 30px;
+    max-height: 50vh;
+  }
+}

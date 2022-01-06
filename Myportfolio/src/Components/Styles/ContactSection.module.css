@@ -1,0 +1,57 @@
+.rootCont {
+  text-align: center;
+  /* height: 45vh; */
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+a {
+  text-decoration: none;
+}
+.contactHeading {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 10px;
+}
+.text {
+  font-size: 20px;
+  margin: 10px;
+}
+.iconsCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.linkedInIcon {
+  font-size: 40px;
+  margin: 0 10px;
+  /* color: rgb(10, 102, 194); */
+  cursor: pointer;
+  color: white !important;
+}
+.linkedInIcon:hover {
+  color: rgb(17, 121, 224) !important;
+}
+.gitIcon {
+  font-size: 40px;
+  margin: 0 10px;
+  cursor: pointer;
+  color: white !important;
+}
+.gitIcon:hover {
+  color: rgb(80, 80, 80) !important;
+}
+.emailicon {
+  font-size: 40px;
+  margin: 0 10px;
+  cursor: pointer;
+  color: white !important;
+}
+.emailicon:hover {
+  color: rgb(80, 80, 80) !important;
+}

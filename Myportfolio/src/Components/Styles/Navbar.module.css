@@ -1,0 +1,90 @@
+.root {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  z-index: 1;
+  font-size: 20px;
+
+  font-weight: 500;
+  color: rgb(1, 75, 97);
+}
+a {
+  height: 50px;
+}
+.navsCont {
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  align-items: center;
+}
+.nav {
+  cursor: pointer;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: center;
+}
+.nav:hover {
+  border-bottom: 5px solid rgb(0, 49, 64);
+}
+.navlogo {
+  cursor: pointer;
+  width: 70px;
+  text-align: center;
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+}
+.navlogo:hover {
+  border-bottom: 5px solid rgb(0, 49, 64);
+}
+/* .active > .nav {
+  border-bottom: 5px solid rgb(0, 49, 64);
+}
+.active > .navlogo {
+  border-bottom: 5px solid rgb(0, 49, 64);
+} */
+/* .navlogo:active {
+  border-bottom: 5px solid rgb(0, 49, 64);
+} */
+.logoimg {
+  height: 60px;
+  border-radius: 50%;
+}
+@media only screen and (max-width: 1024px) {
+  .root {
+    grid-template-columns: 20% 80%;
+    font-size: 18px;
+  }
+  .navsCont {
+    justify-content: space-around;
+  }
+  .nav {
+    height: 47px;
+    width: 100%;
+  }
+  .navlogo {
+    height: 47px;
+    width: 50px;
+    margin-left: 5%;
+  }
+  .nav:hover {
+    border-bottom: none;
+  }
+  .navlogo:hover {
+    border-bottom: none;
+  }
+  .active > .nav {
+    border-bottom: none;
+  }
+  .active > .navlogo {
+    border-bottom: none;
+  }
+}

@@ -1,0 +1,146 @@
+/*Projects Container Section*/
+.projectsSectionCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.projectsSectionCont h1 {
+  color: rgb(0, 49, 64);
+}
+.projectsSectionCont h2 {
+  color: rgb(8, 111, 143);
+  margin: 0;
+}
+.projectsSectionCont > p {
+  font-size: 40px;
+  font-weight: 400;
+}
+.stackIcon {
+  color: rgb(8, 111, 143);
+  font-size: 30px;
+  margin: 5px;
+}
+a {
+  text-decoration: none;
+}
+.projectGrid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 70px 5%;
+  justify-content: center;
+  padding-bottom: 30px;
+  width: 100%;
+}
+/*project card*/
+.projectCont {
+  width: 100%;
+  margin: auto;
+  height: 450px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+.projectCont h2 {
+  color: rgb(8, 111, 143);
+  text-align: center;
+}
+.image {
+  border-radius: 5px;
+  width: 100%;
+  height: 55%;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  margin: auto;
+  cursor: pointer;
+  object-fit: cover;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  padding: 5px 0;
+}
+.linkCont {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  padding: 20px 0 0 0;
+}
+.linkCont > p {
+  font-size: 25px;
+  font-weight: 400;
+  margin: 0;
+}
+.linkDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  background-color: rgb(8, 111, 143);
+  color: white;
+  font-weight: 500;
+  height: 40px;
+  border-radius: 5px;
+  width: 120px;
+}
+.linkDiv:hover {
+  background-color: rgb(14, 129, 165);
+}
+.linkDiv p {
+  margin: 5px;
+}
+.stacksDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stacksDiv2 {
+  display: none;
+}
+.projInfo {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
+}
+.projInfo > p {
+  font-size: 17px;
+  color: gray;
+}
+@media only screen and (max-width: 1024px) {
+  .projectsSectionCont {
+    padding-bottom: 0;
+  }
+  .projectCont {
+    width: 90%;
+    /* height: 150px; */
+    margin: 30px auto;
+    height: auto;
+  }
+  .projectGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+  }
+  .projInfo {
+    display: none;
+  }
+  .stacksDiv {
+    display: none;
+  }
+  .linkCont > p {
+    display: none;
+  }
+  .stacksDiv2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 50%; */
+    margin: auto;
+    margin-top: 10px;
+  }
+}
