@@ -27,6 +27,20 @@ const projects = [
     ],
   },
   {
+    name: "Unacademy.com clone",
+    img: "/unacademy.png",
+    link: "https://unacademy-clone.vercel.app/",
+    git: "https://github.com/Gajanan-Watt/unacademy_clone.git",
+    about:
+      " Unacademy is an e-learning application. This was a team project where I with my teammates had created a learning platform for classes 6 to12. Tech Stack which we used in this project is HTML, CSS, JS, React JS & Redux.",
+    stacks: [
+      <SiReact className={styles.stackIcon} />,
+      <SiJavascript className={styles.stackIcon} />,
+      <SiHtml5 className={styles.stackIcon} />,
+      <SiCss3 className={styles.stackIcon} />,
+    ],
+  },
+  {
     name: "Zara.com clone",
     img: "/zara.jpg",
     link: "https://thotapavankumar.github.io/Zara_Project_Clone/",
@@ -34,7 +48,7 @@ const projects = [
     about:
       " It is an e-commerce website having varieties of luxury items which are of high quality. We have tried to clone the pixel perfect website with the help of HTML. Implemented using HTML, CSS and javascript.",
     stacks: [
-      <SiReact className={styles.stackIcon} />,
+      // <SiReact className={styles.stackIcon} />,
       <SiJavascript className={styles.stackIcon} />,
       <SiHtml5 className={styles.stackIcon} />,
       <SiCss3 className={styles.stackIcon} />,
