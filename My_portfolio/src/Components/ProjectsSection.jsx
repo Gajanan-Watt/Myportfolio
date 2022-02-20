@@ -54,6 +54,20 @@ const projects = [
       <SiCss3 className={styles.stackIcon} />,
     ],
   },
+  {
+    name: "Pixel Art",
+    img: "/doggo2.png",
+    link: "https://pixel-pic.vercel.app/",
+    git: "https://github.com/Gajanan-Watt/pixelArt.git",
+    about:
+      "This project will let you design the pixel art. Let your creativity flow and convert them to images",
+    stacks: [
+      <SiReact className={styles.stackIcon} />,
+      <SiJavascript className={styles.stackIcon} />,
+      <SiHtml5 className={styles.stackIcon} />,
+      <SiCss3 className={styles.stackIcon} />,
+    ],
+  },
   // {
   //   name: "Airbnb.com clone",
   //   img: "/Airbnb.png",
