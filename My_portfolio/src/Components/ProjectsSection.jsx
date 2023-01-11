@@ -13,7 +13,7 @@ const projects = [
   {
     name: "Tanishq.com clone",
     img: "/tanishq.png",
-    link: "https://tanishq-clone.herokuapp.com/",
+    link: "https://tanishqclone-production.up.railway.app/",
     git: "https://github.com/Gajanan-Watt/tanishq_clone.git",
     about:
       "“Tanishq” is a brand of Jewellery retail stores in India. The brand is the property of Titan Company, which is backed by Tata Group and TIDCO. Implemented features to get data from backend.",
