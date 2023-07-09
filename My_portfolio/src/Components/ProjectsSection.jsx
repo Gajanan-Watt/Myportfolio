@@ -58,7 +58,7 @@ const projects = [
     name: "Pixel Art",
     img: "/doggo2.png",
     link: "https://pixel-pic.vercel.app/",
-    git: "https://github.com/Gajanan-Watt/pixelArt.git",
+    git: "https://github.com/Gajanan-Watt/pixel_pic",
     about:
       "This project will let you design the pixel art. Let your creativity flow and convert them to images",
     stacks: [
